@@ -1,0 +1,36 @@
+ <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+<div class="bodyDiv">
+<div class="head">
+  <h1> Filter Page </h1>
+</div>
+  <h3> This is a page that applies some filters on your image upload your Image and try these filters out :) </h3>
+
+ 
+<canvas id="canvas">
+</canvas>
+
+ 
+  <h2> Upload Image :</h2>
+  <input type="file" multiple="false" accept="image/*" id="upload" onchange="imageUploader()"> <br>
+
+<div class="btnbox"> 
+  
+ <input class="btn" type="button" value="Grayscale" onclick="grayFilter()" >
+  
+  <input class="btn" type="button" value="Red filter" onclick="doRedFilter()">
+  
+  <input class="btn" type="button" value="Rainbow" onclick="rainbow()"> <br>
+  
+  <input class="btn" type="button" value="Russian flag" onclick="rusFlagFilter()">
+  
+  <input class="btn" type="button" value="Alien Green" onclick="greenFilter()">
+  
+  <input class="btn" type="button" value="Blue Filter" onclick="blueFilter()">
+  <br>
+  <input class="btn" type="button" value="Reset" onclick="reset()" id="reset">
+  <br> <br> <br> <br>
+
+</div>
+</div>
+ 
+  
